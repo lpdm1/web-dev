@@ -9,18 +9,32 @@ ul a {
     height: 40px;
     display: block;
     background: #f7b600 url(../Imagem/menu.png) no-repeat left center;
-    background-position: 10px;
     text-decoration: none;
     color: black;
     text-indent: 40px;
     line-height: 40px;
+    border-radius: 10px 10px;
+    margin: 2px;
+}
+
+ul li {
+    float: left;
 }
 
 a:hover {
     background-position: right bottom;
-    background-color: #f99200;
-    background: url(../Imagem/menu.png) no-repeat left center;
-    color: white
+    background-color: #f99200 url(../Imagem/seta.png) no-repeat left center;
+    color: white;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+    background-position: right bottom;
+    background-color: #f99200 url(../Imagem/seta.png) no-repeat left center;
+    /* color: white; */
 }
 
 
