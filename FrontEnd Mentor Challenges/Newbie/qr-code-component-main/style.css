@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.hero {
+    background-color: white;
+    width: 250px;
+    margin: 50%;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+img {
+    width: 250px;
+    border-radius: 5%;
+}
