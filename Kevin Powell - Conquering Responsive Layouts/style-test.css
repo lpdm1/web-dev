@@ -1,0 +1,11 @@
+.parent {
+    background: blue;
+    padding: 50px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.child {
+    background-color: green;
+    height: 250px;
+}
