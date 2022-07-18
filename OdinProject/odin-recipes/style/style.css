@@ -25,6 +25,10 @@ img {
     text-align: justify;
 }
 
+.recipe p {
+    font-weight: bold;
+}
+
 ol,
 ul {
     text-align: left;
